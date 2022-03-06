@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Assignment T1</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width , initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="extcss.css">
+	</head>
+        <body>		
+                <label for="hamicon">	 <span tabindex="1" class="navicon" >
+                    <span class="bar"></span>    
+ 					<span class="bar"></span>
+ 					<span class="bar"></span>
+                </span></label>
+            <input type="checkbox" id="hamicon">   <!--Code taken from youtube: (Edwards, 2017)-->
+            
+            <nav class="navbar">
+                <ul>
+                    <li><a class = "menu" href="index.html">Introduction</a></li>
+                    <li><a class = "menu" href="portfolio.html">Portfolio</a></li>
+                    <li><a class = "menu" href="contact.html" id = "clicked">Contact</a></li>
+                    <li><a class = "menu" href="blog.html">Blog</a></li>
+                    <li><a class = "menu" href="sitereport.html">SiteReport</a></li>
+                </ul>     
+				</nav>
+                <header>Contact</header>
+                <div class = "contacts">
+                <div class = "myinfoside">
+                    <img src = "gmail.png" alt = "Gmail logo (taken from internet)" class = "logo"><br> 
+                    <label>abusaadshaikh2018@gmail.com</label><br>
+                    <!-- Gmail Logo:  -->
+                    <img src = "address.png" alt = "Address logo (taken from internet)" class = "logo"><br>
+                    <label>Rajpur Pharhadwa - 3, Rautahat (Nepal)</label><br> 
+                    <!-- Address Logo: ( [Anon.] , [n.d] ) -->
+                    <img src = "phone.jpg" alt = "Phone logo (taken from internet)" class = "logo"><br>
+                    <label>9811847831</label>
+                    <!-- Telephone Logo: ( [Anon.] , [n.d] ). -->
+                </div>
+                <div class="yourinfoside">
+                        <h2> Your Information</h2>
+                        <form method="POST" action="mailto:abusaadshaikh2018@gmail.com?subject=Form">
+                        Name:<br>
+						<input type="text" class="yourinfo" placeholder="Enter your name" name="name" required="required">
+						<br>
+						Email:<br>
+						<input type="email" class="yourinfo" placeholder="Enter your Email" name="email" required="required">
+						<br>
+						Password:<br>
+						<input type="password" class="yourinfo" placeholder="Enter password" required="required">
+						<br>
+						Gender:<br>
+						<input type="radio" class="gendr" name="gender" value="male" required="required">Male
+						<input type="radio" class="gendr" name="gender" value="female">Female
+						<input type="radio" class="gendr" name="gender" value="other">Other
+						<br>
+						<input type="submit" value="Submit" class="yourinfo" id="subbtn">
+					</form>
+                </div>
+            </div>
+         </body>
+</html>
